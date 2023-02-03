@@ -1,0 +1,210 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+/* Navbar Start */
+
+.newnavbar .navbar {
+    padding: 10px;
+    height: 80px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.newnavbar .nav-item a {
+    color: pink;
+    padding: 5px 5px;
+    border-radius: 3px;
+    margin: 5px 5px;
+}
+
+.newnavbar .nav-item a:hover {
+    background-color: pink;
+    color: rgba(138, 15, 62, 0.959);
+    transform: scale(0.9);
+    transition: all 1s ease;
+}
+
+.a {
+    color: pink;
+    padding: 5px 5px;
+    border-radius: 3px;
+    margin: 5px 12px;
+}
+
+.a:hover {
+    background-color: pink;
+    color: rgba(138, 15, 62, 0.959);
+    transform: scale(0.9);
+    transition: all 1s ease;
+}
+
+.modalbutton {
+    background-color: rgba(255, 166, 0, 0);
+    padding: 5px 9px;
+}
+
+.modalbutton:hover {
+    color: white;
+    background-color: pink;
+    box-shadow: 0 0 20px pink;
+    transition: all 1s ease;
+}
+
+.nav-link {
+    color: rgb(0, 0, 0);
+}
+
+
+/* Navbar End */
+
+
+/* Slider Start */
+
+.carousel-item img {
+    height: 400px
+}
+
+
+/* Slider End */
+
+.h1 {
+    font-size: 50px;
+    margin-top: 50px;
+    font-family: arial;
+    text-shadow: 3px 3px gray;
+}
+
+
+/* Footer Start */
+
+footer {
+    padding: 10px;
+    border-top: 40px solid pink;
+}
+
+footer a {
+    color: white;
+    padding: 10px;
+}
+
+.logos a {
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+footer a:hover {
+    color: pink;
+}
+
+.logos a:hover {
+    color: black;
+    background-color: pink;
+    box-shadow: 0 0 30px pink;
+    transition: 1s ease;
+}
+
+.search {
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+footer input {
+    padding: 4px 30px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.781);
+    box-shadow: 0 0 20px pink;
+}
+
+.search:hover {
+    color: black;
+    background-color: pink;
+    box-shadow: 0 0 30px pink;
+    transition: 1s ease;
+}
+
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.692)), url(../images/banner.jpg);
+    height: 350px;
+    background-size: cover;
+}
+
+.banner h1 {
+    font-size: 50px;
+    left: 30%;
+    margin-top: 50px;
+    font-family: arial black;
+    text-shadow: 2px 2px gray;
+}
+
+.banner h3 {
+    font-size: 20px;
+    left: 37%;
+    margin-top: 120px;
+}
+
+.banner a {
+    box-shadow: 0 0 30px pink;
+    padding: 10px 50px;
+    left: 44%;
+    margin-top: 190px;
+}
+
+.banner a:hover {
+    color: white;
+    background-color: pink;
+    box-shadow: 0 0 30px pink;
+    transition: 1s ease;
+}
+
+
+/* Footer End */
+
+
+/* Media Queries */
+
+@media (max-width:990px) {
+    body {
+        overflow-x: hidden;
+    }
+    .banner a {
+        color: rgba(138, 15, 62, 0.959);
+        background-color: pink;
+        box-shadow: 0 0 30px pink;
+        text-decoration: none;
+        padding: 10px 50px;
+        position: absolute;
+        left: 28%;
+        margin-top: 190px;
+    }
+    .banner h3 {
+        font-size: 20px;
+        color: white;
+        position: absolute;
+        left: 17%;
+        margin-top: 120px;
+    }
+    .banner h1 {
+        font-size: 30px;
+        position: absolute;
+        left: 2%;
+        white-space: nowrap;
+        margin-top: 50px;
+        color: white;
+        font-family: arial black;
+        text-shadow: 2px 2px gray;
+    }
+    .navbar-brand img {
+        width: 50px;
+        height: 40px;
+    }
+    .newnavbar .navbar {
+        height: 100%;
+        background-color: rgb(0, 0, 0);
+    }
+}

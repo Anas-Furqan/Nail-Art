@@ -1,0 +1,687 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+/* Navbar Start */
+
+.newnavbar .navbar {
+    padding: 10px;
+    height: 80px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.newnavbar .nav-item a {
+    color: pink;
+    padding: 5px 5px;
+    border-radius: 3px;
+    margin: 5px 5px;
+}
+
+.newnavbar .nav-item a:hover {
+    background-color: pink;
+    color: rgba(138, 15, 62, 0.959);
+    transform: scale(0.9);
+    transition: all 1s ease;
+}
+
+.modalbutton {
+    background-color: rgba(255, 166, 0, 0);
+    padding: 5px 9px;
+}
+
+.modalbutton:hover {
+    color: white;
+    background-color: pink;
+    transition: all 1s ease;
+}
+
+.nav-link {
+    color: rgb(0, 0, 0);
+}
+/* Navbar End */
+
+
+/* Carousel Start */
+
+.carousel-inner {
+    background-color: rgb(0, 0, 0);
+    margin-top: 5px;
+    transition: all 2s ease;
+    margin-right: 5px;
+    margin-left: 5px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.76);
+    border-radius: 6px;
+    height: 350px;
+}
+
+.carousel-inner img {
+    height: 350px;
+}
+
+.caption1 {
+    font-size: 60px;
+    right: 52%;
+    color: rgba(255, 255, 255, 0.815);
+    text-shadow: 3px 3px #424040b7;
+    font-family: Arial Black;
+    bottom: 520%;
+}
+
+.caption12 {
+    font-size: 60px;
+    right: 5%;
+    color: rgba(255, 255, 255, 0.815);
+    text-shadow: 3px 3px #424040b7;
+    font-family: Arial Black;
+    bottom: 530%;
+}
+
+.caption7 {
+    font-size: 60px;
+    right: 45%;
+    color: rgba(255, 255, 255, 0.815);
+    text-shadow: 3px 3px #424040b7;
+    font-family: Arial Black;
+    bottom: 520%;
+}
+
+.caption2 {
+    font-size: 60px;
+    right: 99.7%;
+    color: rgba(255, 38, 0, 0.897);
+    text-shadow: 3px 3px #424040b7;
+    font-family: Arial Black;
+    bottom: 365%;
+}
+
+.caption11 {
+    font-size: 60px;
+    right: 45%;
+    color: rgba(255, 38, 0, 0.897);
+    text-shadow: 3px 3px #424040b7;
+    font-family: Arial Black;
+    bottom: 365%;
+}
+
+.caption6 {
+    font-size: 60px;
+    right: 40%;
+    color: rgba(255, 38, 0, 0.897);
+    text-shadow: 3px 3px #424040b7;
+    font-family: Arial Black;
+    bottom: 365%;
+}
+
+.caption3 {
+    font-size: 60px;
+    right: 22%;
+    color: rgba(255, 255, 255, 0.815);
+    text-shadow: 3px 3px #424040b7;
+    font-family: Arial Black;
+    bottom: 200%;
+}
+
+.caption8 {
+    font-size: 60px;
+    right: 31%;
+    color: rgba(255, 255, 255, 0.815);
+    text-shadow: 3px 3px #424040b7;
+    font-family: Arial Black;
+    bottom: 200%;
+}
+
+.caption4 {
+    padding: 10px 20px;
+    background-color: rgba(255, 0, 0, 0.89);
+    color: white;
+    border-radius: 4px;
+    right: 82%;
+    bottom: 60%;
+    box-shadow: 0 0 20px rgb(255, 147, 5);
+}
+
+.caption4:hover {
+    color: white;
+    background-color: orangered;
+    box-shadow: 0 0 30px orangered;
+    transform: scale(1.1);
+    transition: all 0.6s ease;
+    text-decoration: none;
+}
+
+.caption10 {
+    padding: 10px 20px;
+    background-color: rgba(255, 0, 0, 0.89);
+    color: white;
+    border-radius: 4px;
+    right: 82%;
+    bottom: 60%;
+    box-shadow: 0 0 20px rgb(255, 147, 5);
+}
+
+.caption10:hover {
+    color: white;
+    background-color: orangered;
+    box-shadow: 0 0 30px orangered;
+    transform: scale(1.1);
+    transition: all 0.6s ease;
+    text-decoration: none;
+}
+
+/* Carousel End */
+
+
+/* Categories Start */
+
+.titles3 {
+    width: 300px;
+    margin: 10px;
+    height: 373px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.76);
+    border-radius: 5px;
+}
+
+.titles {
+    /* width: 100%; */
+    margin: 5px;
+    height: 173px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.411);
+    border-radius: 5px;
+}
+
+.titles2 {
+    width: 300px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.411);
+    border-radius: 5px;
+    height: 173px;
+    margin: 5px;
+}
+
+#text {
+    color: rgba(255, 255, 255, 0.575);
+    transform: scale(1);
+    transition: all 1s ease;
+}
+
+#text2 {
+    color: rgb(255, 255, 255);
+    transform: scale(1);
+    transition: all 1s ease;
+    left: 34%;
+    top: 70%;
+    background-color: rgba(255, 38, 0, 0.664);
+    padding: 5px 10px;
+    box-shadow: 0 0 30px rgb(255, 72, 0);
+}
+
+#text4 {
+    color: rgb(255, 255, 255);
+    transform: scale(1);
+    transition: all 1s ease;
+    left: 34%;
+    top: 70%;
+    background-color: rgba(255, 38, 0, 0.664);
+    padding: 5px 10px;
+    box-shadow: 0 0 30px rgb(255, 72, 0);
+}
+
+#text5 {
+    color: rgb(255, 255, 255);
+    transform: scale(1);
+    transition: all 1s ease;
+    left: 34%;
+    top: 70%;
+    background-color: rgba(255, 38, 0, 0.664);
+    padding: 5px 10px;
+    box-shadow: 0 0 30px rgb(255, 72, 0);
+}
+
+#text6 {
+    color: rgb(255, 255, 255);
+    transform: scale(1);
+    transition: all 1s ease;
+    left: 34%;
+    top: 70%;
+    background-color: rgba(255, 38, 0, 0.664);
+    padding: 5px 10px;
+    box-shadow: 0 0 30px rgb(255, 72, 0);
+}
+
+.titles:hover #text2 {
+    background-color: rgb(255, 38, 0);
+    box-shadow: 0 0 30px rgb(255, 0, 0);
+    transform: scale(0.8);
+    transition: all 1s ease;
+}
+
+.titles2:hover #text5 {
+    background-color: rgb(255, 38, 0);
+    box-shadow: 0 0 30px rgb(255, 0, 0);
+    transform: scale(0.8);
+    transition: all 1s ease;
+}
+
+.titles2:hover #text6 {
+    background-color: rgb(255, 38, 0);
+    box-shadow: 0 0 30px rgb(255, 0, 0);
+    transform: scale(0.8);
+    transition: all 1s ease;
+}
+
+.titles:hover #text4 {
+    background-color: rgb(255, 38, 0);
+    box-shadow: 0 0 30px rgb(255, 0, 0);
+    transform: scale(0.8);
+    transition: all 1s ease;
+}
+
+.titles:hover #text3 {
+    transform: scale(0.8);
+    transition: all 1s ease;
+}
+
+.titles:hover #text {
+    transform: scale(0.8);
+    transition: all 1s ease;
+}
+
+.titles .back {
+    background: linear-gradient(rgba(0, 0, 0, 0.363), rgba(73, 6, 6, 0.5)), url(../images/flower\(1\).PNG);
+    height: 100%;
+    background-size: cover;
+    transform: scale(1);
+    transition: all 1s ease;
+}
+
+.titles .back3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.363), rgba(73, 6, 6, 0.5)), url(../images/fruits\(1\).PNG);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transform: scale(1);
+    transition: all 1s ease;
+}
+
+.titles:hover .back {
+    transform: scale(1.2);
+    transition: all 1s ease;
+}
+
+.titles:hover .back3 {
+    transform: scale(1.2);
+    transition: all 1s ease;
+}
+
+#text {
+    color: rgb(255, 255, 255);
+    transform: scale(1);
+    transition: all 1s ease;
+}
+
+.titles2:hover #text {
+    transform: scale(0.6);
+    transition: all 1s ease;
+}
+
+.titles2 .back {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(73, 6, 6, 0.5)), url(../images/geometric\(2\).jpg);
+    height: 100%;
+    background-size: cover;
+    transform: scale(1);
+    transition: all 1s ease;
+}
+
+.titles2:hover .back {
+    transform: scale(1.2);
+    transition: all 1s ease;
+}
+
+.titles2 .back3 {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(73, 6, 6, 0.5)), url(../images/gallery\(2\).PNG);
+    height: 100%;
+    background-size: cover;
+    transform: scale(1);
+    transition: all 1s ease;
+}
+
+.titles2:hover .back3 {
+    transform: scale(1.2);
+    transition: all 1s ease;
+}
+
+
+/* Categories End */
+
+.h1 {
+    font-size: 50px;
+    margin-top: 50px;
+    font-family: arial;
+    text-shadow: 3px 3px gray;
+}
+
+.img {
+    width: 520px;
+    height: 300px;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px gray;
+}
+
+
+/* Footer Start */
+
+footer {
+    padding: 10px;
+    border-top: 40px solid pink;
+}
+
+footer a {
+    color: white;
+    padding: 10px;
+}
+
+.logos a {
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+footer a:hover {
+    color: pink;
+}
+
+.logos a:hover {
+    color: black;
+    background-color: pink;
+    box-shadow: 0 0 30px pink;
+    transition: 1s ease;
+}
+
+.search {
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+footer input {
+    padding: 4px 30px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.781);
+    box-shadow: 0 0 20px pink;
+}
+
+.search:hover {
+    color: black;
+    background-color: pink;
+    box-shadow: 0 0 30px pink;
+    transition: 1s ease;
+}
+
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.692)), url(../images/banner.jpg);
+    height: 350px;
+    background-size: cover;
+}
+
+.banner h1 {
+    font-size: 50px;
+    left: 30%;
+    margin-top: 50px;
+    font-family: arial black;
+    text-shadow: 2px 2px gray;
+}
+
+.banner h3 {
+    font-size: 20px;
+    left: 37%;
+    margin-top: 120px;
+}
+
+.banner a {
+    box-shadow: 0 0 30px pink;
+    padding: 10px 50px;
+    left: 44%;
+    margin-top: 190px;
+}
+
+.banner a:hover {
+    color: white;
+    background-color: pink;
+    box-shadow: 0 0 30px pink;
+    transition: 1s ease;
+}
+
+
+/* Footer End */
+
+
+/* Media Queries */
+
+@media (max-width:990px) {
+    body {
+        overflow-x: hidden;
+    }
+    .banner a {
+        color: rgba(138, 15, 62, 0.959);
+        background-color: pink;
+        box-shadow: 0 0 30px pink;
+        text-decoration: none;
+        padding: 10px 50px;
+        position: absolute;
+        left: 28%;
+        margin-top: 190px;
+    }
+    .banner h3 {
+        font-size: 20px;
+        color: white;
+        position: absolute;
+        left: 17%;
+        margin-top: 120px;
+    }
+    .banner h1 {
+        font-size: 30px;
+        position: absolute;
+        left: 2%;
+        white-space: nowrap;
+        margin-top: 50px;
+        color: white;
+        font-family: arial black;
+        text-shadow: 2px 2px gray;
+    }
+    .titles3 {
+        background-color: black;
+        width: 360px;
+        margin: 10px;
+        height: 150px;
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.76);
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    .titles3 #text2 {
+        position: absolute;
+        left: 30%;
+    }
+    .titles3 #text {
+        position: absolute;
+        left: 30%;
+    }
+    .titles2 {
+        background-color: black;
+        width: 100%;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.411);
+        border-radius: 5px;
+        height: 173px;
+        overflow: hidden;
+        margin: 5px;
+    }
+    #text3 {
+        color: rgb(255, 255, 255);
+        transform: scale(1);
+        transition: all 1s ease;
+        font-size: 22px;
+        position: absolute;
+        left: 2.5%;
+        top: 30%;
+        white-space: nowrap;
+    }
+    #text4 {
+        color: rgb(255, 255, 255);
+        transform: scale(1);
+        transition: all 1s ease;
+        position: absolute;
+        left: 24%;
+        top: 60%;
+        text-decoration: none;
+        background-color: rgba(255, 38, 0, 0.664);
+        padding: 5px 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 30px rgb(255, 72, 0);
+        white-space: nowrap;
+    }
+    #text2 {
+        color: rgb(255, 255, 255);
+        transform: scale(1);
+        transition: all 1s ease;
+        position: absolute;
+        left: 24%;
+        top: 60%;
+        text-decoration: none;
+        background-color: rgba(255, 38, 0, 0.664);
+        box-shadow: 0 0 30px rgb(255, 72, 0);
+        padding: 5px 10px;
+        border-radius: 5px;
+        white-space: nowrap;
+    }
+    #text1 {
+        color: rgb(255, 255, 255);
+        transform: scale(1);
+        transition: all 1s ease;
+        position: absolute;
+        left: 7%;
+        top: 30%;
+        font-size: 25px;
+        white-space: nowrap;
+    }
+    #text {
+        color: rgb(255, 255, 255);
+        transform: scale(1);
+        transition: all 1s ease;
+        position: absolute;
+        left: 7%;
+        top: 30%;
+        font-size: 25px;
+        white-space: nowrap;
+    }
+    .carousel-inner img {
+        height: 350px;
+        width: 100%;
+        opacity: 60%
+    }
+    .caption10 {
+        padding: 5px 10px;
+        color: white;
+        border-radius: 4px;
+        position: absolute;
+        right: 70%;
+        bottom: 60%;
+        white-space: nowrap;
+        text-decoration: none;
+        background-color: rgb(255, 38, 0);
+        box-shadow: 0 0 30px rgb(255, 0, 0);
+    }
+    .caption8 {
+        position: absolute;
+        font-size: 45px;
+        font-size: bolder;
+        right: 7%;
+        white-space: nowrap;
+        color: rgba(255, 255, 255, 0.815);
+        text-shadow: 3px 3px #424040b7;
+        font-family: Arial Black;
+        bottom: 200%;
+    }
+    .caption6 {
+        position: absolute;
+        font-size: 40px;
+        font-size: bolder;
+        right: 59%;
+        color: rgba(252, 151, 0, 0.993);
+        text-shadow: 3px 3px #424040b7;
+        font-family: Arial Black;
+        bottom: 365%;
+    }
+    .caption7 {
+        position: absolute;
+        font-size: 40px;
+        font-size: bolder;
+        right: 29%;
+        color: rgba(255, 255, 255, 0.815);
+        text-shadow: 3px 3px #424040b7;
+        font-family: Arial Black;
+        bottom: 520%;
+        white-space: nowrap;
+    }
+    .caption4 {
+        padding: 5px 10px;
+        background-color: rgba(255, 0, 0, 0.89);
+        color: white;
+        border-radius: 4px;
+        position: absolute;
+        right: 70%;
+        bottom: 70%;
+        white-space: nowrap;
+        text-decoration: none;
+        box-shadow: 0 0 20px gray;
+    }
+    .caption3 {
+        position: absolute;
+        font-size: 40px;
+        font-size: bolder;
+        right: 5%;
+        color: rgba(255, 255, 255, 0.815);
+        text-shadow: 3px 3px #424040b7;
+        font-family: Arial Black;
+        bottom: 200%;
+    }
+    .newnavbar .navbar {
+        height: 100%;
+        background-color: rgb(0, 0, 0);
+    }
+    .caption2 {
+        position: absolute;
+        font-size: 50px;
+        font-size: bolder;
+        right: 89.7%;
+        color: rgba(255, 38, 0, 0.897);
+        text-shadow: 3px 3px #424040b7;
+        font-family: Arial Black;
+        bottom: 365%;
+    }
+    .carousel-inner {
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        transition: all 2s ease;
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.76);
+        border-radius: 6px;
+        height: 100%;
+    }
+    .caption1 {
+        position: absolute;
+        font-size: 50px;
+        font-size: bolder;
+        right: 20%;
+        color: rgba(255, 255, 255, 0.815);
+        text-shadow: 3px 3px #424040b7;
+        font-family: Arial Black;
+        bottom: 550%;
+        white-space: nowrap;
+    }
+    .navbar-brand img {
+        width: 50px;
+        height: 40px;
+    }
+}
